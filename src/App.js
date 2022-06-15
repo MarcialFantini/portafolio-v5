@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Portada from './components/Portada';
 import WorkTodoo from './components/WorkTodoo';
+import XState from './components/XState';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Portada />
       <WorkTodoo />
+      <XState />
     </div>
   );
 }
