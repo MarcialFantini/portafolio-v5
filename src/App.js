@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Portada from './components/Portada';
 import WorkTodoo from './components/WorkTodoo';
 import XState from './components/XState';
+import { ClimaProyect } from './components/ClimaProyect';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Portada />
       <WorkTodoo />
       <XState />
+      <ClimaProyect />
     </div>
   );
 }
