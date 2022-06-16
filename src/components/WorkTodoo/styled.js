@@ -5,6 +5,8 @@ export const WorkTodooContainer = styled.div`
     height: auto;
     background: transparent;
 
+
+    margin-top: 10%;
     padding-bottom: 20px;
     @media (min-width: 450px){
         display: flex;

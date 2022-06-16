@@ -13,7 +13,7 @@ export const XStateContainer = styled.div`
     flex-direction: column;
 
     @media (min-width: 450px){
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 `
 

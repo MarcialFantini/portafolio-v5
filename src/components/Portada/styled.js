@@ -38,7 +38,7 @@ const keyframeCubeNeon = keyframes`
         top:0;
     }
     50%{
-        top: 100%;
+        top: 91%;
     }
     100%{
         top: 0;
@@ -47,13 +47,13 @@ const keyframeCubeNeon = keyframes`
 
 const keyframeCubeNeonInverted = keyframes`
     0%{
-        top:100%;
+        top:91%;
     }
     50%{
         top: 0%;
     }
     100%{
-        top: 100%;
+        top: 91%;
     }
 `
 

@@ -5,13 +5,17 @@ export const ContainerClima = styled.div`
     height: auto;
 
     background: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    flex-direction: column;
+    margin: 0 0 10% 0;
 
-    
-    
     @media (min-width: 450px){
-        display: flex;
+       
         flex-direction: row;
     }
+    
 `
 
 export const TextContainer = styled.div`
@@ -27,7 +31,7 @@ export const TextContainer = styled.div`
     align-items: center;
 
     @media (min-width: 450px){
-        width: 50%;
+        width: 40%;
         margin: 0;
     }
 `
@@ -50,8 +54,9 @@ export const ImageContainer = styled.div`
     justify-content: center;
     align-items: center;
     
+    margin: 30px 0;
     @media(min-width: 450px){
-        width: 50%;
+        width: 40%;
     }
 `
 
@@ -61,6 +66,8 @@ export const ImgWhitMask = styled.img`
 
     mask-image: url(${props => props.mask});
     mask-size: contain;
+
+    
 
     @media(min-width: 450px){
         width: 100%;
