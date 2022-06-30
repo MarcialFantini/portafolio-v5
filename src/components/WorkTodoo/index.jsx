@@ -1,6 +1,7 @@
 import React from 'react'
 import { ContainerImage, ContainerText, ImgWhitMask, TextH1, TextP, WorkTodooContainer } from './styled'
 import IntentoImg from './intento.png'
+import Todoo from './Todoo.PNG'
 
 const WorkTodoo = () => {
     return (
@@ -10,17 +11,15 @@ const WorkTodoo = () => {
                     Todoo List
                 </TextH1>
                 <TextP>
-                    #Reactjs
+                    Aplicación para manejar tareas del dia a dia.
                 </TextP>
                 <TextP>
-                    #redux-toolkit
+                    #Reactjs #JavaScript #Html5 #Css3 #Redux-Toolkit
                 </TextP>
-                <TextP>
-                    #styledComponents
-                </TextP>
+
             </ContainerText>
             <ContainerImage>
-                <ImgWhitMask src='https://cdn.pixabay.com/photo/2022/05/12/12/55/sunset-7191546_960_720.jpg'
+                <ImgWhitMask src={Todoo}
                     mask={IntentoImg}
                 />
             </ContainerImage>

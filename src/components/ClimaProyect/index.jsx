@@ -2,6 +2,7 @@ import React from 'react'
 import { ContainerClima, ImageContainer, ImgWhitMask, TextContainer, TextH1, TextP } from './styled'
 
 import clima from './clima.png'
+import climaApp from './climaApp.PNG'
 
 export const ClimaProyect = () => {
     return (
@@ -11,15 +12,16 @@ export const ClimaProyect = () => {
                     AppClima
                 </TextH1>
                 <TextP>
-                    #ReactJs
+                    Aplicación para ver el clima de tu ciudad.
                 </TextP>
+
                 <TextP>
-                    #Fetch Api
+                    #Fetch-Api #Reactjs #JavaScript #Html5 #Css3 #Redux-Toolkit
                 </TextP>
             </TextContainer>
             <ImageContainer>
                 <ImgWhitMask
-                    src='https://cdn.pixabay.com/photo/2022/06/13/15/36/grain-7260250_960_720.jpg'
+                    src={climaApp}
                     mask={clima}
                 />
             </ImageContainer>

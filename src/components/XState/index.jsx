@@ -1,23 +1,24 @@
 import React from 'react'
 import { ImageContainer, ImgWidtMask, TextContainer, TextH1, TextP, XStateContainer } from './styled'
 import BarrMask from './barrMask.png'
-
+import Tours from './tours.PNG'
 const XState = () => {
     return (
         <XStateContainer>
             <TextContainer>
                 <TextH1>
-                    XState
+                    Tours
                 </TextH1>
                 <TextP>
-                    #Reactjs
+                    Aplicación para tomar un pasaje a un destino. Como si fueras a ir de vacaciones.
                 </TextP>
                 <TextP>
-                    #Xstate
+                    #Reactjs #JavaScript #Html5 #Css3 #Redux-Toolkit
                 </TextP>
+
             </TextContainer>
             <ImageContainer>
-                <ImgWidtMask src='https://cdn.pixabay.com/photo/2022/05/13/10/35/flower-7193390_960_720.jpg'
+                <ImgWidtMask src={Tours}
                     mask={BarrMask}
                 />
             </ImageContainer>
